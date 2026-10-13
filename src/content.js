@@ -9,6 +9,7 @@ export const profile = {
   tagline: 'I build practical AI systems, full-stack applications, and interactive digital experiences.',
   location: 'Dehradun, India',
   email: null,
+  phone: '9696972800',
   availability: "Open to internships in software engineering, AI/ML, and full-stack development. Let's build something useful.",
   socials: [
     { label: 'GitHub', url: 'https://github.com/ParthAgarwal2544' },
@@ -90,7 +91,7 @@ export const projects = [
     category: 'AI / Assistive Technology | Hackathon',
     badge: '2025 Hackathon Project',
     badgeVariant: 'subtle',
-    blurb: 'An earlier hackathon project (2025) — an assistive conversational chatbot powered by a Flask backend designed to support users facing barriers with standard digital interfaces.',
+    blurb: 'An earlier hackathon project (2025), an assistive conversational chatbot powered by a Flask backend designed to support users facing barriers with standard digital interfaces.',
     description: [
       'Problem & Purpose: Developed as a 2025 hackathon project in the AI / Assistive Technology category to improve accessibility for individuals with interface interaction challenges.',
       'Implementation: Built an AI conversational assistant with a Python and Flask backend for request handling, dialogue management, and contextual response dispatch.',
@@ -171,11 +172,11 @@ export const projects = [
 export const about = {
   bio: [
     "I'm a B.Tech Computer Science Engineering student specializing in AI and Machine Learning at UPES who enjoys building practical software systems, AI-powered applications, and interactive digital experiences.",
-    "My focus centers on developing practical software systems, machine learning pipelines, and accessible digital tools that solve real-world problems. I enjoy engineering solutions from end to end—from system architecture and model integration to clean, intuitive user experiences.",
+    "My focus centers on developing practical software systems, machine learning pipelines, and accessible digital tools that solve real-world problems. I enjoy engineering solutions from end to end, from system architecture and model integration to clean, intuitive user experiences.",
     "I learn best by building hands-on projects, continually expanding my technical capabilities across modern AI frameworks, web technologies, and software engineering practices.",
   ],
   education: {
-    degree: 'B.Tech in Computer Science Engineering — AI & ML Specialization',
+    degree: 'B.Tech in Computer Science Engineering, AI & ML Specialization',
     institution: 'UPES',
     status: 'Started 2024 · Expected Graduation: 2028',
   },
@@ -190,7 +191,7 @@ export const about = {
   achievements: [
     {
       id: 'sih-2026',
-      title: 'Smart India Hackathon (SIH) — 2026',
+      title: 'Smart India Hackathon (SIH), 2026',
       status: 'Selected for Nationals',
       badge: 'Selected for Nationals',
       badgeVariant: 'highlight',
@@ -198,11 +199,11 @@ export const about = {
       year: '2026',
       featured: true,
       description:
-        'Selected for the national round of Smart India Hackathon (SIH) 2026 with Setu, an AI-powered competency management copilot for institutional civil service training. Features automated competency profiling, explainable gap identification, and personalized learning pathways. (Selected for Nationals — qualified for the national round).',
+        'Selected for the national round of Smart India Hackathon (SIH) 2026 with Setu, an AI-powered competency management copilot for institutional civil service training. Features automated competency profiling, explainable gap identification, and personalized learning pathways. (Selected for Nationals, qualified for the national round).',
     },
     {
       id: 'carevoice-2025',
-      title: 'CareVoice — Hackathon Project, 2025',
+      title: 'CareVoice: Hackathon Project, 2025',
       status: 'Earlier Hackathon Project',
       badge: '2025 Hackathon Project',
       badgeVariant: 'subtle',
@@ -217,7 +218,7 @@ export const about = {
   experience: [
     {
       category: 'Community Service Internship',
-      title: 'Social Internship — Leo Club of Mumbai Vikas',
+      title: 'Social Internship: Leo Club of Mumbai Vikas',
       organization: 'Leo Club of Mumbai Vikas',
       type: 'Community Service & Civic Welfare (Non-Technical)',
       badge: 'Community Service',
@@ -234,14 +235,14 @@ export const about = {
   timeline: [
     {
       when: '2024',
-      what: 'Started College — B.Tech CSE (AI & ML)',
+      what: 'Started College: B.Tech CSE (AI & ML)',
       where: 'UPES',
       detail:
         'Began B.Tech in Computer Science Engineering specializing in Artificial Intelligence and Machine Learning (Expected graduation: 2028).',
     },
     {
       when: '2024',
-      what: 'Social Internship — Community Service',
+      what: 'Social Internship: Community Service',
       where: 'Leo Club of Mumbai Vikas',
       badge: 'Community Service',
       badgeVariant: 'subtle',
@@ -250,7 +251,7 @@ export const about = {
     },
     {
       when: '2025',
-      what: 'CareVoice — Hackathon Project',
+      what: 'CareVoice: Hackathon Project',
       where: 'AI / Assistive Technology',
       badge: '2025 Hackathon',
       badgeVariant: 'subtle',
@@ -259,13 +260,13 @@ export const about = {
     },
     {
       when: '2026',
-      what: 'Smart India Hackathon (SIH) — 2026',
+      what: 'Smart India Hackathon (SIH): 2026',
       where: 'Selected for Nationals · Project: Setu',
       badge: 'Selected for Nationals',
       badgeVariant: 'highlight',
       featured: true,
       detail:
-        'Selected for Nationals in Smart India Hackathon 2026 with Setu, my latest hackathon project — an AI competency management copilot for institutional civil service training.',
+        'Selected for Nationals in Smart India Hackathon 2026 with Setu, my latest hackathon project: an AI competency management copilot for institutional civil service training.',
     },
   ],
 }

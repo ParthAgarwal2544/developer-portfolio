@@ -427,6 +427,39 @@ body {
 .skill-group h3 { margin-bottom: 10px; }
 
 /* ───── Contact ───── */
+.contact-phone-wrap {
+  margin-bottom: 12px;
+}
+.contact-phone-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 4px;
+  transition: color 0.15s ease;
+}
+.contact-phone-link:hover {
+  color: var(--accent);
+}
+.contact-phone-icon {
+  flex-shrink: 0;
+  color: var(--accent);
+  transition: transform 0.2s ease;
+}
+.contact-phone-link:hover .contact-phone-icon {
+  transform: rotate(-10deg) scale(1.1);
+}
+.contact-phone-code {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+.contact-phone-number {
+  color: inherit;
+}
 .contact-note {
   margin-top: 20px; padding: 14px 16px; background: var(--paper-3);
   border-radius: 8px; border-left: 3px solid var(--accent-2);

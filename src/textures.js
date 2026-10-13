@@ -205,7 +205,7 @@ export function endWallTexture(name) {
   const r = rng(5)
   paper(ctx, w, h, r, '#f3eee2')
   text(ctx, "you've reached the end", w / 2, h * 0.22, 120, { rot: -0.02 })
-  text(ctx, 'thanks for walking through — find me online:', w / 2, h * 0.36, 46, { color: PENCIL, rot: 0.008 })
+  text(ctx, 'thanks for walking through, find me online:', w / 2, h * 0.36, 46, { color: PENCIL, rot: 0.008 })
 
   // GitHub button
   rect(ctx, w / 2 - 320, h * 0.435, 640, 62, r, { width: 2, color: PENCIL })
